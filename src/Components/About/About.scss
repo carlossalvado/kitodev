@@ -1,0 +1,18 @@
+.about__onethumb {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
