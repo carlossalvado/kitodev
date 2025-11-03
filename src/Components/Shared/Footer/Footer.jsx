@@ -112,6 +112,7 @@ const Footer = () => {
                   <li><Link to="/privacy-policy" className="white">Política de Privacidade</Link></li>
                   <li><Link to="/cookie-policy" className="white">Política de Cookies</Link></li>
                   <li><Link to="/refund-policy" className="white">Política de Reembolso</Link></li>
+                  <li><Link to="/data-deletion-policy" className="white">Política de Exclusão de Dados</Link></li>
                 </ul>
               </div>
             </div>

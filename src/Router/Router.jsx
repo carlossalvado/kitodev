@@ -12,6 +12,7 @@ import PrivacyPolicy from "../Pages/PrivacyPolicy/PrivacyPolicy";
 import TermsOfUse from "../Pages/TermsOfUse/TermsOfUse";
 import CookiePolicy from "../Pages/CookiePolicy/CookiePolicy";
 import RefundPolicy from "../Pages/RefundPolicy/RefundPolicy";
+import DataDeletionPolicy from "../Pages/DataDeletionPolicy/DataDeletionPolicy";
 
 export const router = createBrowserRouter([
   {
@@ -69,6 +70,10 @@ export const router = createBrowserRouter([
       {
         path: "/refund-policy",
         element: <RefundPolicy />,
+      },
+      {
+        path: "/data-deletion-policy",
+        element: <DataDeletionPolicy />,
       },
     ],
   },
