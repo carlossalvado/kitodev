@@ -13,11 +13,13 @@ import TermsOfUse from "../Pages/TermsOfUse/TermsOfUse";
 import CookiePolicy from "../Pages/CookiePolicy/CookiePolicy";
 import RefundPolicy from "../Pages/RefundPolicy/RefundPolicy";
 import DataDeletionPolicy from "../Pages/DataDeletionPolicy/DataDeletionPolicy";
+import ErrorPage from "../Pages/ErrorPage";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
